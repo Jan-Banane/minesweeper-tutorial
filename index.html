@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/minesweeper.css">
+    
+    <title>Minesweeper Tutorial</title>
+</head>
+<body>
+  <header>
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+      <li id="minesweeper-logo" class="logo">
+        Logo
+      </li>
+      <li><a href="#!">Geschichte</a></li>
+      <li><a href="#!">Video Tutorial</a></li>
+      <li><a href="#!">Tutorial Guide</a></li>
+      <li><a href="#!">Tipps und Tricks</a></li>
+      <li><a href="#!">Häufig gestellte Fragen</a></li>
+      <li><a href="#!">Bildergalerie</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  </header>
+  <main>
+    <h1>Minesweeper Tutorial</h1>
+    <article id="minesweeper-history">
+      <h2>Geschichte</h2>
+      <p>
+        https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504
+        <br>
+        Minesweeper wurde ursprünglich von Microsoft für Windows 3.1 entwickelt und danach jeder Nachfolgeversion für den PC beigelegt;
+        seit Windows 8 muss es als App aus dem Windows Store nachinstalliert werden.
+        Das Spiel fehlt bei Windows Mobile bis zur Version Windows Mobile 2003 SE.
+        Für Windows Phone wird in vielen Ländern über den integrierten Windows Phone Store eine kostenlose Xbox Live Minesweeper-App[1][2] angeboten.
+        Mit Windows Vista wurde es vollständig überarbeitet und besitzt zum Beispiel die Möglichkeit, die Minen durch Blumen zu ersetzen[3].
+        Minesweeper war ebenfalls im 1999 erschienenen Mobiltelefon Siemens S25 integriert.
+        Rekorde, die auf Windows beiliegenden Programmversionen erzielt wurden, werden für internationale und nationale Bestenlisten nicht akzeptiert,
+        da die aktuelle Version dem Spieler die Möglichkeit gibt,
+        auf einem Spielfeld mit den gleichen Minenpositionen mehrmals hintereinander zu spielen (Neustart)
+        und vorhergehende Versionen nicht sicher gegen Cheats und Hacks sind.
+        Für Wettkämpfe und Ranglisten finden dagegen ausschließlich die Programme
+        „Minesweeper Arbiter“, „Minesweeper X“ und „Viennasweeper“ Anwendung.
+        In Anlehnung an Minesweeper wurde das papierbasierte Spiel Beleuchtung entwickelt. 
+      </p>
+    </article>
+    <article id="video-tutorial">
+      <hr>
+      <h2>Video Tutorial</h2>
+      <video controls>
+        <source src="./videos/test-video.mp4" type="video/mp4">
+        <source src="./videos/test-video.webm" type="video/webm">
+        <track src="subtitles/test-video-german.vtt" kind="subtitles" srclang="de" label="Deutsch">
+        <p>Oops, it seems that your browser doesn't support this video format! <br>
+          Please try again with another browser or watch the video via this <a href="./videos/test-video.mp4">link</a>.
+        </p>
+      </video>
+    </article>
+    <article id="tutorial-guide">
+      <h2>Tutorial Guide</h2>
+    </article>
+    <article id="tips-and-tricks">
+      <h2>Tipps und Tricks</h2>
+      <p>Ist das Spiel zu schwer? Dann versuch doch einmal besser zu werden!</p>
+    </article>
+    <article id="faq">
+      <h2>Häufig gestellte Fragen</h2>
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header">Das Spiel ist mir zu einfach, was kann ich tun, um es schwerer zu gestalten?</div>
+          <div class="collapsible-body"><span>Falls dir das Spiel zu einfach ist, kannst du einmal versuchen das Spiel ohne Flaggen zu spielen.
+            Alternativ kannst du auch versuchen eine neue Bestzeit auzustellen.
+          </span></div>
+        </li>
+        <li>
+          <div class="collapsible-header">Ich möchte nicht Google verwenden, gibt es irgendwelche alternativen?</div>
+          <div class="collapsible-body"><span>Natürlich, es gibt unzählige Webseiten und Apps, welche dir sogar noch mehr bieten können als Google Minesweeper.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header">Ich möchte selber eine eigene Minesweeper App erstellen, wie geht das?</div>
+          <div class="collapsible-body"><span>Um selber eine Minesweeper App in PYthon zu erstellen, kann ich nur folgendes Video wärmstens empfehlen: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Zum Video</a>.</span></div>
+        </li>
+      </ul>
+    </article>
+    <article id="image-gallery">
+      <h2>Bildergalerie</h2>
+    </article>
+  </main>
+  <footer class="page-footer">Bla Bla</footer>
+
+  <script src="./js/materialize.min.js"></script>
+  <script src="./js/minesweeper.js"></script>
+</body>
+</html>
