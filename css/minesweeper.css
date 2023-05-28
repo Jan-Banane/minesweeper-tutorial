@@ -1,9 +1,59 @@
 header, main, footer {
-    padding-left: 300px;
+    padding-left: 350px;
   }
 
   @media only screen and (max-width : 992px) {
     header, main, footer {
       padding-left: 0;
     }
+
+    p {
+      margin: 1px 20px;
+      max-width: 800px;
+    }
+
+    video {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 3rem;
+      margin-left: 20px;
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin-left: 20px;
+    }
+
+    .next-to-each-other {
+      display: block !important;
+    }
+
+    .next-to-each-other img.big {
+      width: 100% !important;
+    }
   }
+
+video {
+  width: 600px;
+}
+
+.collapsible {
+  max-width: 600px;
+}
+
+.next-to-each-other {
+  display: flex;
+}
+
+.next-to-each-other img.big {
+  width: 600px;
+}
+
+.next-to-each-other p.big {
+  font-size: 30px;
+  margin-top: 0;
+  max-width: 400px;
+  margin-left: 1rem;
+}
