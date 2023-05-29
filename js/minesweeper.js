@@ -25,18 +25,30 @@ player.load('./videos/manifest.mpd')  // or .m3u8 for HLS
 .then(() => {
   // Video loaded successfully
   console.log('Video loaded');
+    player.setTextTrackVisibility(true);
 })
 .catch((error) => {
   // Error loading video
   console.error('Error loading video:', error);
 });
 
+function changeSubtitles() {
+  const selector = document.getElementById('subtitlesSelector');
+  const selectedValue = selector.options[selector.selectedIndex].value;
+
+  var textTracks = player.getTextTracks();
+  var track = textTracks[selectedValue];
+
+
+  player.selectTextTrack(track.id);
+}
+
 // Function to change video quality based on dropdown selection
 function changeVideoQuality() {
   const selector = document.getElementById('qualitySelector');
   const selectedValue = selector.options[selector.selectedIndex].value;
-  
-  if (selectedValue === 'auto') {
+
+  if (selectedValue === '0') {
     // Set quality to auto (adaptive)
     player.configure({
       streaming: {
@@ -55,10 +67,9 @@ function changeVideoQuality() {
       },
     });
     
+    var tracks = player.getVariantTracks();
     // Manually select quality
-    player.selectVariantTrack(null, /* clearBuffer */ true);
-    const tracks = player.getVariantTracks();
-    const selectedTrack = tracks.find((track) => track.height === selectedValue);
-    player.selectVariantTrack(selectedTrack, /* clearBuffer */ false);
+    const selectedTrack = tracks[selectedValue];
+    player.selectVariantTrack(selectedTrack, /* clearBuffer */ true);
   }
 }

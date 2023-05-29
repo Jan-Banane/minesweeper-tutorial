@@ -69,7 +69,9 @@ p {
   margin: 1px 0 15px 0px;
 }
 
-
+select {
+  display: inline-block;
+}
 
 video {
   width: 600px;

@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/mux.js@5.5.3/dist/mux.min.js"> </script>
     <link rel="stylesheet" href="./css/controls.css">
+    <script src="./js/shaka-player.ui.js"></script>
     <script src="./js/shaka-player.compiled.js"></script>
     <link rel="stylesheet" href="./css/materialize.min.css">
     <link rel="stylesheet" href="./css/minesweeper.css">
@@ -52,13 +53,17 @@
     <article id="video-tutorial">
       <hr>
       <h2>Video Tutorial</h2>
-      <video id="videoPlayer" width="640" height="360" controls></video>
-
+      <video id="videoPlayer" width="640" height="360" controls>
+        <track src="./subtitles/minesweeperTutorial-german.vtt" kind="subtitles" srclang="de" label="Deutsch" default>
+        <track src="./subtitles/minesweeperTutorial-english.vtt" kind="subtitles" srclang="en" label="English" default>
+        <track src="./subtitles/minesweeperTutorial-french.vtt" kind="subtitles" srclang="fr" label="French" default>
+        <track src="./subtitles/minesweeperTutorial-chinese.vtt" kind="subtitles" srclang="cn" label="Chinese" default>
+      </video>
       <select id="qualitySelector" onchange="changeVideoQuality()">
-        <option value="auto">Auto</option>
-        <option value="low">Low</option>
-        <option value="medium">Medium</option>
-        <option value="high">High</option>
+        <option value="0">Super low</option>
+        <option value="1">Low</option>
+        <option value="2">Medium</option>
+        <option selected value="3">High</option>
       </select>
     </article>
     <article id="tutorial-guide">
