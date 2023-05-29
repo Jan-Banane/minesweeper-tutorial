@@ -32,6 +32,10 @@ header, main, footer {
     .next-to-each-other img.big {
       width: 100% !important;
     }
+
+    .next-to-each-other p.big {
+      max-width: 100% !important;
+    }
   }
 
 p {
@@ -48,6 +52,8 @@ video {
 
 .next-to-each-other {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 .next-to-each-other img.big {

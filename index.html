@@ -65,27 +65,39 @@
     </article>
     <article id="tutorial-guide">
       <h2>Tutorial Guide</h2>
-      <p>
+      <p class="big">
         Das Spiel kann in verschiedenen Schwierigkeitsstufen gespielt werden. Dabei unterscheidet sich nicht nur die Anzahl Minen, sondern auch die Spielfeldgrösse
       </p>
-      <p>
-        Hier ist die einfachste Version dargestellt: Easy
-      </p>
-      <img class="big" src="./images/ExampleEasyMode.png" alt="png that shows an easy mode">
-      <p>
-        Hier ist die mittlere Version dargestellt: Medium
-      </p>
-      <img class="big" src="./images/ExampleMediumMode.png" alt="png that shows an easy mode">
-      <p>
-        Hier ist die schwierigste Version dargestellt: Hard
-      </p>
-      <img class="big" src="./images/ExampleHardMode.png" alt="png that shows an easy mode">
+      <div class="next-to-each-other">
+        <p class="big">
+          Einfachster Schwierigkeitsgrad
+        </p>
+        <picture>
+          <source media="(min-width: 45em)" srcset="./images/ResonsiveBig.png">
+          <source media="(min-width: 35em)" srcset="./images/ResonsiveMedium.png">
+          <source media="(min-width: 25em)" srcset="./images/ResonsiveSmall.png">
+          <source media="(min-width: 15em)" srcset="./images/ResonsiveTiny.png">
+          <img class="big" src="./images/ExampleEasyMode.png">
+        </picture>
+      </div>
+      <div class="next-to-each-other">
+        <p class="big">
+          Mittlerer Schwierigkeitsgrad
+        </p>
+        <img class="big" src="./images/ExampleMediumMode.png" alt="png that shows an easy mode">
+      </div>
+      <div class="next-to-each-other">
+        <p class="big">
+          Höchster Schwierigkeitsgrad
+        </p>
+        <img class="big" src="./images/ExampleHardMode.png" alt="png that shows an easy mode">
+      </div>
     </article>
     <article id="tips-and-tricks">
       <h2>Tipps und Tricks</h2>
       <div class="next-to-each-other">
-        <img class="big" src="./gifs/ezgif-3-7a83fb3bfc.gif" alt="Gif that shows a fail">
         <p class="big">Ist das Spiel zu schwer? Dann versuch doch einmal besser zu werden!</p>
+        <img class="big" src="./gifs/ezgif-3-7a83fb3bfc.gif" alt="Gif that shows a fail">
       </div>
     </article>
     <article id="faq">
