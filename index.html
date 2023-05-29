@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="dist/shaka-player.compiled.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/materialize.min.css">
@@ -52,7 +52,7 @@
     <article id="video-tutorial">
       <hr>
       <h2>Video Tutorial</h2>
-      <video controls>
+      <video id="video" controls>
         <source src="./videos/MinesweeperTutorial.mp4" label="1080p" type="video/mp4">
         <track src="subtitles/minesweeperTutorial-english.vtt" kind="subtitles" srclang="en" label="English">
         <track src="subtitles/minesweeperTutorial-german.vtt" kind="subtitles" srclang="de" label="Deutsch">
