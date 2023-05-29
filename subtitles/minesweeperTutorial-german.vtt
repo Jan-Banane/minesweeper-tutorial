@@ -1,0 +1,450 @@
+WEBVTT
+
+1
+00:00.250 --> 00:03.500
+Herzlich Willkommen zu diesem Minesweeper Tutorial.
+
+2
+00:04.000 --> 00:09.500
+In diesem Tutorial zeige ich euch, wie man Minesweeper spielt.
+
+3
+00:10.000 --> 00:13.000
+Um für euch den ganzen Aufbau etwas besser zu gestalten,
+
+4
+00:13.500 --> 00:16.000
+habe ich das Video in verschiedene Kapitel unterteilt.
+
+5
+00:16.500 --> 00:21.500
+Somit möchte ich euch nicht länger aufhalten und
+starte direkt mit dem ersten Kapitel.
+
+6
+00:27.000 --> 00:32.000
+In diesem Kapitel zeige ich euch die beste Möglichkeit,
+um Minesweeper zu spielen,
+
+7
+00:32.500 --> 00:36.000
+denn es gibt sehr viele Möglichkeiten,
+wie und wo man Minesweeper spielen kann,
+
+8
+00:36.500 --> 00:40.500
+doch in diesem Tutorial möchte ich euch die vermutlich einfachste
+Möglichkeit zeigen.
+
+9
+00:41.000 --> 00:45.000
+Hierfür öffnet ihr den Browser eurer Wahl.
+
+10
+00:46.000 --> 00:50.000
+Danach gebt ihr im Suchfeld Google.com ein und drückt Enter.
+
+11
+00:50.500 --> 00:53.500
+Dadurch landet ihr auf der Startseite von Google.
+
+12
+00:54.000 --> 00:59.500
+Hier gebt ihr dann Minesweeper im Suchfeld ein
+und drückt anschliessend Enter.
+
+13
+01:00.000 --> 01:05.000
+Das erste, dass dann aukommen sollte,
+ist eine Box in welcher ihr Minesweeper spielen könnt.
+
+14
+01:05.500 --> 01:12.000
+Ist das nicht der Fall und es käme kein solches Feld auf,
+dann könnt ihr auch eine der vorgeschlagenen Webseiten verwenden.
+
+15
+01:12.500 --> 01:15.000
+Denn diese Webseiten sind auch sehr gut.
+
+16
+01:15.500 --> 01:21.000
+Aber wie schon gesagt,
+werden wir im Tutorial mit dem Google eigenen Minesweeper spielen.
+
+17
+01:21.000 --> 01:25.000
+Nun kann man also auf Spielen drücken und schon ist Minesweeper offen.
+
+18
+01:31.000 --> 01:35.500
+In diesem Kapitel zeige ich euch,
+wie die Steuerung von Minesweeper funktioniert.
+
+19
+01:36.000 --> 01:40.000
+Es kann natürlich sein, dass die Steuerung von Spiel zu Spiel etwas variiert.
+
+20
+01:40.500 --> 01:42.000
+Doch in den meisten Fällen ist es dieselbe.
+
+21
+01:43.000 --> 01:45.500
+Für die Steuerung gibt es eigentlich zwei Möglichkeiten.
+
+22
+01:46.000 --> 01:53.000
+Entweder macht man einen Linksklick auf ein Feld,
+auf welchem man mit der Maus darüberfährt.
+
+23
+01:53.500 --> 01:58.000
+Wenn man also nun einen Linksklick ausführt, wird das Feld,
+welches geklickt wurde, aufgedeckt.
+
+24
+01:59.500 --> 02:05.000
+Oder man kann mithilfe eines Rechtklicks
+eine Flagge auf ein Feld setzen
+
+25
+02:05.500 --> 02:07.500
+oder die Flagge wieder entfernen.
+
+26
+02:08.000 --> 02:14.000
+Wichtig ist auch, dass falls auf einem Feld eine Flagge ist,
+dass dieses Feld nicht aufgedeckt werden kann.
+
+27
+02:16.000 --> 02:23.000
+Man kann es so oft versuchen wie man will,
+das Feld lässt sich erst aufdecken, nachdem die Flagge entfernt wurde.
+
+28
+02:24.500 --> 02:27.000
+So, das war es bereits mit der Steuerung gewesen.
+
+29
+02:27.500 --> 02:31.500
+Mithilfe dieser kann man nun richtig damit beginnen, Minesweeper zu spielen.
+
+30
+02:36.500 --> 02:41.000
+In diesem Kapitel erkläre ich nun euch die Regeln des Spiels.
+
+31
+02:42.500 --> 02:47.000
+Und zwar hat es auf dem Spielfeld Minen versteckt.
+
+32
+02:47.500 --> 02:54.000
+Das Ziel ist es jetzt, alle Felder aufzudecken, auf welchen KEINE Minen sind.
+
+33
+02:55.000 --> 03:01.000
+Da dies ohne Hilfe des Spieles nicht möglich wäre, gibt uns das Spiel eine Hilfe.
+
+34
+03:01.500 --> 03:05.500
+Und zwar sieht man hier am Rand ein paar Zahlen.
+
+35
+03:06.000 --> 03:14.000
+Diese Zahlen geben an, wie viele der acht umliegenden Feldern eine Mine besitzen.
+
+36
+03:14.500 --> 03:19.500
+Also zum Beispiel bei diesem Eins hat genau eines dieser umliegenden Felder eine Mine.
+
+37
+03:20.000 --> 03:25.500
+Bei diesem Zwei zum Beispiel hat es zwei Minen auf den acht umliegenden Felder.
+
+38
+03:27.500 --> 03:35.000
+Wichtig ist, falls ein Feld keine Zahl hat, dann sind alle acht umliegenden Felder ohne Mine.
+
+39
+03:36.000 --> 03:49.500
+Was nun auch cool ist, ist, dass Google Minesweeper die umliegenden Felder
+von leeren geklickten Feldern, auch gleich mitaufdeckt,
+denn diese haben schliesslich alle keine Mine.
+
+40
+03:52.000 --> 03:49.500
+Sobald Zahlen kommen, hört es mit dem automatischen Aufdecken auf,
+denn dann muss man selber herausfinden, welche Felder aufgedeckt werden können.
+
+41
+03:52.000 --> 04:00.000
+Sobald Zahlen kommen, hört es mit dem Automatischen aufdecken auf,
+denn dann muss man selber herausfinden, welche aufgedeckt werden können.
+
+42
+04:00.500 --> 04:05.000
+Jetzt gibt es noch ein Beispiel,
+zum Beispiel hat man hier eine Eins.
+
+43
+04:05.500 --> 04:10.500
+Das heisst, unter eines dieser acht umliegenden Felder ist somit eine Mine versteckt.
+
+44
+04:11.000 --> 04:18.500
+Da nun bereits sieben der umliegenden Felder aufgedeckt sind
+durch das automatische aufdecken von Google Minesweeper,
+
+45
+04:19.000 --> 04:22.000
+ist nun klar, dass das letzte verdeckte umliegende Feld eine Mine ist.
+
+46
+04:23.500 --> 04:31.500
+In solch einem Fall, markiere ich die Mine mit einer Flagge,
+dann weiss ich achtung, darunter verbirgt sich eine Mine
+und möchte somit nicht dieses Feld aufdecken.
+
+47
+04:33.000 --> 04:44.500
+Jetzt hat man nebenan auch eine Eins, da man nun auch weiss aha, die Flagge markiert eine Mine,
+bedeutet dies nun, dass alle anderen umliegenden Felder dieser Eins keine Mine besitzen.
+
+48
+04:45.000 --> 04:49.500
+Somit kann ich diese Felder unbesorgt aufdecken.
+
+49
+04:51.000 --> 04:59.500
+Dieses vorgehen wende ich nun bei allen Feldern an,
+bis ich dann am Ende alle Felder ohne Mine aufgedeckt habe.
+
+50
+05:00.500 --> 05:08.000
+Wichtig zu beachten ist, dass falls man auf eine Mine klickt,
+dass dann das Spiel verloren ist.
+
+51
+05:11.500 --> 05:13.500
+Das waren nun bereits die Regeln.
+
+52
+05:18.500 --> 05:23.000
+So, in diesem Kapitel spielen wir einmal eine komplette Runde Minesweeper zusammen.
+
+53
+05:23.500 --> 05:27.500
+Ich empfehle euch, ohnehin zu beginn auf die einfachste Schwierigkeit zu wechseln.
+
+54
+05:28.000 --> 05:33.500
+Dafür könnt ihr hier oben links den Schwierigkeitsgrad Einfach auswählen.
+
+55
+05:35.000 --> 05:39.000
+Sobald ihr dies getan habt, könnt ihr nun irgendwo auf ein Feld klicken.
+
+56
+05:39.500 --> 05:43.500
+Ich empfehle euch eher etwas in der Mitte zu klicken anstelle eines Eckens.
+
+57
+05:44.500 --> 05:51.500
+Wenn sich nun die ersten paar Felder und Zahlen offenbart haben,
+fange ich am liebsten immer mit den Ecken an.
+
+58
+05:52.500 --> 05:59.000
+Und zwar hat man dort eine eins,
+dass heisst also eines dieser acht umliegenden Felder hat eine Mine,
+
+59
+05:59.500 --> 06:06.000
+aber sieben dieser Felder sind bereits aufgedeckt,
+dass heisst das dieses Feld sicher eine Mine sein muss.
+
+60
+06:07.500 --> 06:12.000
+Auch hier in diesem Ecken hat man sieben Felder,
+die bereits aufgedeckt sind
+
+61
+06:12.500 --> 06:18.000
+und ein Feld, welches noch nicht aufgedeckt ist
+und eine Mine, welche vorhanden sein muss.
+
+62
+06:18.500 --> 06:22.000
+Das heisst es kann nur dieses Feld sein.
+
+63
+06:23.500 --> 06:27.500
+Und ihr sieht bereits, dass dies relativ oft der Fall ist.
+
+64
+06:28.000 --> 06:29.000
+Zum Beispiel auch hier,
+
+65
+06:29.500 --> 06:30.500
+und hier,
+
+66
+06:31.000 --> 06:32.000
+als auch hier.
+
+67
+06:33.000 --> 06:36.500
+Und schon hat man damit sechs Minen markieren können.
+
+68
+06:37.500 --> 06:41.500
+Jetzt im nächsten Schritt schaue ich, hat man hier eine Eins
+
+69
+06:42.500 --> 06:44.500
+und ist bereits eine Mine markiert.
+
+70
+06:45.000 --> 06:50.000
+Das heisst, dass diese zwei anderen Felder gar keine Mine mehr sein können,
+da es nur eine Mine um dieses Feld gibt.
+
+71
+06:51.000 --> 06:53.000
+Somit kann man diese Felder einfach aufdecken.
+
+72
+06:54.000 --> 07:01.000
+Und jetzt auch hier hat man eine Eins,
+aber alle sieben umliegende Felder ausser das Achte sind aufgedeckt.
+
+73
+07:01.500 --> 07:04.500
+Das heisst also, es kann nur dieses Feld eine Mine sein.
+
+74
+07:07.500 --> 07:10.500
+Und hier auch wieder, man hat bereits ein Feld markiert.
+
+75
+07:11.000 --> 07:12.500
+Das heisst, dieses Feld kann keine Mine sein.
+
+76
+07:13.000 --> 07:17.000
+Und auch hier wieder, wir wissen bereits, wo sich bei diesem Feld die Mine befindet.
+
+77
+07:18.500 --> 07:24.500
+Jetzt hat man einmal eine Zwei
+und ein umliegendes Feld davon ist bereits markiert.
+
+78
+07:26.500 --> 07:33.000
+Aber es hat ja drumherum gar nicht mehr Felder,
+welche die zweite Mine sein könnten, ausser dieses hier.
+
+79
+07:33.500 --> 07:36.000
+Also ist hier sicher die Mine.
+
+80
+07:37.000 --> 07:42.000
+Oder auch bei dieser Drei, man hat genau drei Felder, welche noch nicht aufgedeckt sind.
+
+81
+07:42.500 --> 07:49.000
+Zwei davon sind sicherlich Minen, doch das spielt keine Rolle,
+denn auch das dritte Feld muss eine Mine sein,
+
+82
+07:49.500 --> 07:52.000
+weil es kann gar kein anderes Feld eine Mine sein.
+
+83
+07:52.500 --> 07:58.500
+Mit dieser Logik kann man extrem viele Felder markieren oder aufdecken.
+
+84
+07:59.000 --> 08:01.000
+Zum Beispiel auch hier, diese Eins.
+
+85
+08:02.000 --> 08:04.000
+Man hat hier die Mine, dieses Feld hier kann also keine Mine sein.
+
+86
+08:04.500 --> 08:09.500
+Und hier auch, hier hat man die Eins,
+dieses Feld hier kann also auch keine Mine sein.
+
+87
+08:10.000 --> 08:15.000
+Oder hier, hier haben wir eine Eins, hier ist bereits eine Mine,
+somit ist dieses Feld keine Mine.
+
+88
+08:16.000 --> 08:20.000
+Und auch hier wieder man hat eine Eins, hier ist die Mine.
+
+89
+08:21.000 --> 08:23.000
+Gut, dann können diese beiden Felder keine Mine sein.
+
+90
+08:26.500 --> 08:28.500
+Hier hat man eine Drei.
+
+91
+08:30.000 --> 08:40.000
+Diese zwei Felder sind bereits mit einer Flagge markiert
+und das letzte verdeckte Feld bei der Drei ist dieses hier.
+
+92
+08:40.500 --> 08:43.500
+Das heisst, auch dieses Feld muss eine Mine sein.
+
+93
+08:45.500 --> 08:49.000
+Genau, jetzt hat man noch ein Feld und man hat hier die Eins.
+
+94
+08:51.500 --> 08:56.000
+Dieses Feld kann somit auch keine Mine sein, denn es gibt hier bereits eine Mine.
+
+95
+08:57.000 --> 09:00.000
+Und Voila, man hat es geschafft.
+
+96
+09:08.500 --> 09:12.000
+So, das war es bereits gewesen mit dem Minesweeper-Tutorial.
+
+97
+09:13.000 --> 09:19.500
+Falls euch das Spiel einmal zu einfach wird,
+habe ich euch noch drei Ideen mit auf den Weg,
+mit welchen das Spiel schwieriger wird.
+
+98
+09:20.500 --> 09:24.500
+Und zwar könnt ihr zum Beispiel einfach eine schwierigere Schwierigkeitsstufe probieren.
+
+99
+09:25.500 --> 09:32.500
+Oder ihr könnt versuchen, in möglichst kurzer Zeit versuchen zu gewinnen.
+
+100
+09:33.000 --> 09:38.500
+Oder ihr könnt sogar einmal versuchen, das Spiel ohne Rechtklicks durchzuspielen.
+
+101
+09:39.000 --> 09:44.500
+Das bedeutet, dass ihr während des Spieles keine Flaggen platzieren könnt.
+
+101
+09:46.500 --> 09:53.000
+So, das waren bereits meine Ideen gewesen,
+und somit bedanke ich mich für eure Aufmerksamkeit.
