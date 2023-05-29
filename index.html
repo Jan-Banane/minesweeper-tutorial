@@ -65,38 +65,65 @@
     </article>
     <article id="tutorial-guide">
       <h2>Tutorial Guide</h2>
-      <p class="big">
+      <p>
         Das Spiel kann in verschiedenen Schwierigkeitsstufen gespielt werden. Dabei unterscheidet sich nicht nur die Anzahl Minen, sondern auch die Spielfeldgrösse
       </p>
       <div class="next-to-each-other">
-        <p class="big">
-          Einfachster Schwierigkeitsgrad
-        </p>
-        <picture>
-          <source media="(min-width: 45em)" srcset="./images/ResonsiveBig.png">
-          <source media="(min-width: 35em)" srcset="./images/ResonsiveMedium.png">
-          <source media="(min-width: 25em)" srcset="./images/ResonsiveSmall.png">
-          <source media="(min-width: 15em)" srcset="./images/ResonsiveTiny.png">
-          <img class="big" src="./images/ExampleEasyMode.png">
-        </picture>
+        <div class="image-show">
+          <picture>
+            <source media="(min-width: 45em)" srcset="./images/ResonsiveBig.png">
+            <source media="(min-width: 35em)" srcset="./images/ResonsiveMedium.png">
+            <source media="(min-width: 25em)" srcset="./images/ResponsiveSmall.png">
+            <img class="big" src="./images/ExampleEasyMode.png">
+          </picture>
+          <img class="big" src="./images/ExampleMediumMode.png" alt="png that shows a medium mode">
+          <img class="big" src="./images/ExampleHardMode.png" alt="png that shows a hard mode">
+        </div>
       </div>
+      <h4>Aufgedeckte Bereiche</h4>
+      <p>
+        Wenn ein Feld angeklickt wird, welches keine Nummer hat, werden automatisch alle anderen Felder auch aufgedeckt, bis wieder Felder
+        kommen, die eine Zahl haben.
+      </p>
       <div class="next-to-each-other">
-        <p class="big">
-          Mittlerer Schwierigkeitsgrad
-        </p>
-        <img class="big" src="./images/ExampleMediumMode.png" alt="png that shows an easy mode">
+        <img class="big" src="./images/ExampleClearedArea.png" alt="png that shows a cleared area">
       </div>
+      <h4>Minen entdecken</h4>
+      <p>
+        Die Eins in der Ecke gibt an, dass das Feld mit dem roten X, das Feld sein muss, unter dem
+        die Mine ist. Ausserdem sind alle anderen Felder aufgedeckt, also muss es das sein.
+      </p>
       <div class="next-to-each-other">
-        <p class="big">
-          Höchster Schwierigkeitsgrad
-        </p>
-        <img class="big" src="./images/ExampleHardMode.png" alt="png that shows an easy mode">
+        <img class="big" src="./images/ExampleMineDetection.png" alt="png that shows a way of detecting mines">
+      </div>
+      <h4>Eine Flagge</h4>
+      <p>
+        Wenn sie sich sicher sind, dass sich unter dem Feld eine Mine befindet, tätigen sie
+        rechtsklick und platzieren eine Flagge. Dies verhindert, dass sie versehentlich dieses Feld
+        mit der linken Maustaste anklicken und sich die Position für die Mine zu merken.
+      </p>
+      <div class="next-to-each-other">
+        <img class="big" src="./images/ExampleFlag.png" alt="png that shows a flag">
+      </div>
+      <h4>Spiel Verloren</h4>
+      <p>
+        Wenn sie das Spiel verloren haben, sieht es folgendermasse aus.
+      </p>
+      <div class="next-to-each-other">
+        <img class="big" src="./images/ExapleLostGame.png" alt="png that shows a lost game">
+      </div>
+      <h4>Spiel gewonnen</h4>
+      <p>
+        Wenn sie das Spiel gewonnen haben, sieht es folgendermasse aus.
+      </p>
+      <div class="next-to-each-other">
+        <img class="big" src="./images/ExampleWonGame.png" alt="png that shows a won game">
       </div>
     </article>
     <article id="tips-and-tricks">
-      <h2>Tipps und Tricks</h2>
+      <h4>Tipps und Tricks</h4>
+      <p>Ist das Spiel zu schwer? Dann versuch doch einmal besser zu werden!</p>
       <div class="next-to-each-other">
-        <p class="big">Ist das Spiel zu schwer? Dann versuch doch einmal besser zu werden!</p>
         <img class="big" src="./gifs/ezgif-3-7a83fb3bfc.gif" alt="Gif that shows a fail">
       </div>
     </article>
@@ -121,10 +148,10 @@
     </article>
     <article id="image-gallery">
       <h2>Bildergalerie</h2>
+
     </article>
   </main>
-  <footer class="page-footer">Bla Bla</footer>
-
+  <footer class="page-footer">Bla bla</footer>
   <script src="./js/materialize.min.js"></script>
   <script src="./js/minesweeper.js"></script>
 </body>

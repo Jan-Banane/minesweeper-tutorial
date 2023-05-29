@@ -2,31 +2,15 @@ header, main, footer {
     padding-left: 350px;
   }
 
-  @media only screen and (max-width : 992px) {
-    header, main, footer {
-      padding-left: 0;
+  @media only screen and (max-width : 1650px) {
+    .image-show {
+      flex-direction: column !important;
     }
-
-    p {
-      margin: 1px 20px;
-    }
-
+  }
+  
+  @media only screen and (max-width : 600px) {
     video {
       width: 100% !important;
-    }
-
-    h2 {
-      font-size: 3rem;
-      margin-left: 20px;
-    }
-
-    h1 {
-      font-size: 4rem;
-      margin-left: 20px;
-    }
-
-    .next-to-each-other {
-      display: block !important;
     }
 
     .next-to-each-other img.big {
@@ -36,14 +20,67 @@ header, main, footer {
     .next-to-each-other p.big {
       max-width: 100% !important;
     }
+
+    img {
+      margin-left: 0 !important;
+    }
+
+    video {
+      margin-left: 0 !important;
+    }
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+
+    p {
+      margin: 1px 0 15px 20px !important;
+
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h1, h2, h4 {
+      margin-left: 20px;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    img {
+      margin-left: 20px;
+    }
+
+    video {
+      margin-left: 20px;
+    }
+
+    .next-to-each-other {
+      display: block !important;
+    }
   }
 
 p {
   max-width: 800px;
+  margin: 1px 0 15px 0px;
 }
+
+
 
 video {
   width: 600px;
+}
+
+.image-show {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .collapsible {
