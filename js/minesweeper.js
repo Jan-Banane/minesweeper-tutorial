@@ -32,15 +32,13 @@ player.load('./videos/manifest.mpd')  // or .m3u8 for HLS
   console.error('Error loading video:', error);
 });
 
-function changeSubtitles() {
-  const selector = document.getElementById('subtitlesSelector');
+function changeVideoLanguage() {
+  const selector = document.getElementById('languageSelector');
   const selectedValue = selector.options[selector.selectedIndex].value;
 
-  var textTracks = player.getTextTracks();
-  var track = textTracks[selectedValue];
-
-
-  player.selectTextTrack(track.id);
+  var audioTracks = player.getAudioTracks();
+  var track = audioTracks[selectedValue];
+  player.selectAudioTrack(track);
 }
 
 // Function to change video quality based on dropdown selection

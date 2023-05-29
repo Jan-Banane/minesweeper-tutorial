@@ -30,7 +30,23 @@
     </AdaptationSet>
     <AdaptationSet id="1" mimeType="audio/webm" codecs="vorbis" audioSamplingRate="48000" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
       <Representation id="4" bandwidth="144659">
-        <BaseURL>audio.webm</BaseURL>
+        <BaseURL>swissgermanSynchro.webm</BaseURL>
+        <SegmentBase indexRange="9939592-9941981">
+          <Initialization range="0-4431" />
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" mimeType="audio/webm" codecs="vorbis" audioSamplingRate="48000" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation id="5" bandwidth="144659">
+        <BaseURL>englishSynchro.webm</BaseURL>
+        <SegmentBase indexRange="9939592-9941981">
+          <Initialization range="0-4431" />
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="3" mimeType="audio/webm" codecs="vorbis" audioSamplingRate="48000" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation id="6" bandwidth="144659">
+        <BaseURL>germanSynchro.webm</BaseURL>
         <SegmentBase indexRange="9939592-9941981">
           <Initialization range="0-4431" />
         </SegmentBase>
