@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/3.2.1/shaka-player.compiled.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mux.js@5.5.3/dist/mux.min.js"> </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/3.2.1/controls.css">
-  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/3.2.1/shaka-player.compiled.js"></script>
     <link rel="stylesheet" href="./css/materialize.min.css">
     <link rel="stylesheet" href="./css/minesweeper.css">
-    
     <title>Minesweeper Tutorial</title>
 </head>
 <body>
@@ -20,12 +18,12 @@
       <li id="minesweeper-logo" class="logo">
         <img src="./images/Logo.png" alt="Sweepers logo">
       </li>
-      <li><a href="#!">Geschichte</a></li>
-      <li><a href="#!">Video Tutorial</a></li>
-      <li><a href="#!">Tutorial Guide</a></li>
-      <li><a href="#!">Tipps und Tricks</a></li>
-      <li><a href="#!">Häufig gestellte Fragen</a></li>
-      <li><a href="#!">Bildergalerie</a></li>
+      <li><a href="#minesweeper-history">Geschichte</a></li>
+      <li><a href="#video-tutorial">Video Tutorial</a></li>
+      <li><a href="#tutorial-guide">Tutorial Guide</a></li>
+      <li><a href="#tips-and-tricks">Tipps und Tricks</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#impressum">Impressum</a></li>
     </ul>
     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </header>
@@ -39,8 +37,8 @@
         Minesweeper wurde ursprünglich von Microsoft für Windows 3.1 entwickelt und danach jeder Nachfolgeversion für den PC beigelegt;
         seit Windows 8 muss es als App aus dem Windows Store nachinstalliert werden.
         Das Spiel fehlt bei Windows Mobile bis zur Version Windows Mobile 2003 SE.
-        Für Windows Phone wird in vielen Ländern über den integrierten Windows Phone Store eine kostenlose Xbox Live Minesweeper-App[1][2] angeboten.
-        Mit Windows Vista wurde es vollständig überarbeitet und besitzt zum Beispiel die Möglichkeit, die Minen durch Blumen zu ersetzen[3].
+        Für Windows Phone wird in vielen Ländern über den integrierten Windows Phone Store eine kostenlose Xbox Live Minesweeper-App angeboten.
+        Mit Windows Vista wurde es vollständig überarbeitet und besitzt zum Beispiel die Möglichkeit, die Minen durch Blumen zu ersetzen.
         Minesweeper war ebenfalls im 1999 erschienenen Mobiltelefon Siemens S25 integriert.
         Rekorde, die auf Windows beiliegenden Programmversionen erzielt wurden, werden für internationale und nationale Bestenlisten nicht akzeptiert,
         da die aktuelle Version dem Spieler die Möglichkeit gibt,
@@ -148,7 +146,7 @@
     </article>
   </main>
   <footer class="page-footer">    
-    <div class="impressum">
+    <div id="impressum" class="impressum">
       <p>Impressum</p>
       <p>
         Webseite: Minesweeper Tutorial<br>

@@ -21,7 +21,7 @@ player.configure({
 });
 
 // Load the manifest file
-player.load('..\\videos\\manifest.mpd')  // or .m3u8 for HLS
+player.load('../videos/manifest.mpd')  // or .m3u8 for HLS
 .then(() => {
   // Video loaded successfully
   console.log('Video loaded');
